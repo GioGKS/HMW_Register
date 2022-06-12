@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Name -->
+    <h1>Register</h1>
+    <form action="get">
+      <label for="text">First Name:</label>
+      <input type="text" placeholder="Enter Your First Name..." required />
+      <label for="text">Last Name:</label>
+      <input type="text" placeholder="Enter Your Last Name..." required />
+    </form>
+
+    <!-- Gender -->
+    <label for="Gender">Male</label>
+    <input type="radio" id="Male" name="Gender" />
+    <label for="Gender">Female</label>
+    <input type="radio" id="Female" name="Gender" />
+    <label for="Gender">Other</label>
+    <input type="radio" id="Other" name="Gender" />
+
+    <!-- email-Paswword  -->
+    <form action="get">
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        email=""
+        placeholder="Place your Email here..."
+        required
+      />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        password=""
+        placeholder="Enter your Password"
+        required
+      />
+    </form>
+
+    <!-- Birthday -->
+    <form action="get">
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="Birthday" required />
+    </form>
+
+    <!-- Hobbies -->
+    <label for="Education">Education:</label>
+    <select name="Codding Education/Experience" id="" required>
+      <option value="" disabled selected>Select</option>
+      <option value="Currently Student">Currently Student</option>
+      <option value="Less Than 5 Years Experience">1-5 Years Experience</option>
+      <option value="More Than 5 Years Experience">5> Year Experience</option>
+    </select>
+
+    <p>
+      <label for="terms">I Agree To The Terms And conditions:</label>
+      <input type="checkbox" id="terms" name="terms" required />
+    </p>
+    <p>
+      <input type="submit" placeholder="Submit" />
+    </p>
+  </body>
+</html>
